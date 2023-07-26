@@ -66,9 +66,9 @@ TracimDaemonSDK serves as an SDK for the TracimDaemon project. This documentatio
 
 You can install the TracimDaemonSDK using `pip`:
 
-bash
-
-`pip install tracim_daemon_sdk` 
+```bash
+pip install tracim_daemon_sdk
+```
 
 ### Creating a TracimDaemon Client
 
@@ -87,9 +87,9 @@ client = TracimDaemonClient(
 
 After creating the TracimDaemon client, you need to create and listen to the client socket:
 
-python
-
-`client.create_client_socket()` 
+```python
+client.create_client_socket() 
+```
 
 To ensure proper closing of the socket, it is recommended to wrap the rest of the code inside a try/finally block:
 
