@@ -58,7 +58,7 @@ TracimDaemon, by itself, only logs incoming events. To make use of it, you need 
 
 ## Plugins
 
-Writing plugins can be done in any language due to the simple daemon protocol. However several libraries exists. Here we will use the python library.
+Writing plugins can be done in any language due to the simple daemon protocol. However several libraries exists. Here we will use [the python library](https://github.com/Millefeuille42/TracimDaemonSDK_Python).
 
 TracimDaemonSDK serves as an SDK for the TracimDaemon project. This documentation is designed to provide a quick introduction to using the TracimDaemonSDK.
 
