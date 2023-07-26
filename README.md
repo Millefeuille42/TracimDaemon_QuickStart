@@ -79,7 +79,7 @@ from tracim_daemon_sdk import TracimDaemonClient
 
 client = TracimDaemonClient(
     master_socket_path='/home/user/.config/TracimDaemon/master.sock',
-    client_socket_path='/home/user/PycharmProjects/TracimDaemonSDK_Python/tracim_daemon.sock',
+    client_socket_path='/home/user/.config/MiniClient/client.sock',
 )
 ```
 
